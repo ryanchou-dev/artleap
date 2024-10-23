@@ -17,7 +17,7 @@ export default function SignIn() {
 	// redirect if user is signed in
 	useEffect(() => {
 		if (status == "authenticated") {
-			router.push("/gpa");
+			router.push("/profile");
 		}
 	}, []);
 
